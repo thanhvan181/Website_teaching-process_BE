@@ -1,0 +1,31 @@
+const STATUS_ORDER = {
+  WAIT_CONFIRM: 0,
+  CONFIRMED: 1,
+  CANCEL: 2,
+};
+const STATUS_DEMO_CLASS = {
+  NO_TEACHER: 0,
+  PENDING: 1,
+  CANCEL: 2,
+};
+
+const STATUS_PAID_CLASS = {
+  WAIT_PAID: 0,
+  PAID: 1,
+  RESOLVE: 2,
+  CANCEL: 3,
+};
+
+const STATUS_SESSIONS = {
+  PENDING: 0,
+  RESOLVE: 1,
+  ABSENT: 2,
+  REJECT: 3,
+};
+
+module.exports = {
+  STATUS_ORDER,
+  STATUS_DEMO_CLASS,
+  STATUS_PAID_CLASS,
+  STATUS_SESSIONS,
+};
